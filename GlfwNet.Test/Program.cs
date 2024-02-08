@@ -43,7 +43,7 @@ namespace GlfwNet.Test
 					Console.Out.WriteLine($"Current VideoMode: {monitor.CurrentMode.Width}x{monitor.CurrentMode.Height}");
 					foreach (VideoMode mode in monitor.VideoModes)
 					{
-						Console.Out.WriteLine($"\t{mode.Width}x{mode.Height}");
+						Console.Out.WriteLine($"\t{mode.Width}x{mode.Height}@{mode.RefreshRate}Hz");
 					}
 				}
 
