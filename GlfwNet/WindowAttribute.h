@@ -18,5 +18,8 @@ namespace GlfwNet
 		TransparentFramebuffer = GLFW_TRANSPARENT_FRAMEBUFFER,
 		Hovered = GLFW_HOVERED,
 		FocusOnShow = GLFW_FOCUS_ON_SHOW,
+		MousePassthrough = GLFW_MOUSE_PASSTHROUGH,
+		PositionX = GLFW_POSITION_X,
+		PositionY = GLFW_POSITION_Y,
 	};
 }

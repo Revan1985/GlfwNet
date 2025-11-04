@@ -1,0 +1,16 @@
+#pragma once
+
+#include <GLFW/glfw3.h>
+
+namespace GlfwNet
+{
+	public enum class AnglePlatformType :int32_t
+	{
+		None = GLFW_ANGLE_PLATFORM_TYPE_NONE,
+		D3D9 = GLFW_ANGLE_PLATFORM_TYPE_D3D9,
+		D3D11 = GLFW_ANGLE_PLATFORM_TYPE_D3D11,
+		OpenGL = GLFW_ANGLE_PLATFORM_TYPE_OPENGL,
+		Vulkan = GLFW_ANGLE_PLATFORM_TYPE_VULKAN,
+		Metal = GLFW_ANGLE_PLATFORM_TYPE_METAL,
+	};
+}

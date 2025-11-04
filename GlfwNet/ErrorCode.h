@@ -18,5 +18,9 @@ namespace GlfwNet
 		PlatformError = GLFW_PLATFORM_ERROR,
 		FormatUnavailable = GLFW_FORMAT_UNAVAILABLE,
 		NoWindowContext = GLFW_NO_WINDOW_CONTEXT,
+		CursorUnabailable = GLFW_CURSOR_UNAVAILABLE,
+		FeatureUnavailable = GLFW_FEATURE_UNAVAILABLE,
+		FeatureUnimplemented = GLFW_FEATURE_UNIMPLEMENTED,
+		PlatformUnavailable = GLFW_PLATFORM_UNAVAILABLE,
 	};
 }

@@ -17,6 +17,9 @@ using namespace System;
 namespace GlfwNet
 {
 	public delegate void GlCallback();
+	public delegate IntPtr AllocateCallback (unsigned int Size, IntPtr user);
+	public delegate IntPtr ReallocateCallback (IntPtr block, unsigned int size, IntPtr user);
+	public delegate void DeallocateCallback (IntPtr block, IntPtr user);
 	public delegate void ErrorCallback(ErrorCode error_code, String^ description);
 	public delegate void WindowPositionCallback(Window^ window, int x, int y);
 	public delegate void WindowSizeCallback(Window^ window, int width, int height);

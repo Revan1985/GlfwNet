@@ -49,9 +49,15 @@ namespace GlfwNet
 		CocoaGraphicsSwitching = GLFW_COCOA_GRAPHICS_SWITCHING,
 		X11ClassName = GLFW_X11_CLASS_NAME,
 		X11InstanceName = GLFW_X11_INSTANCE_NAME,
+		Win32KeyboardMenu = GLFW_WIN32_KEYBOARD_MENU,
+		Win32ShowDefault = GLFW_WIN32_SHOWDEFAULT,
+		WaylandAppId = GLFW_WAYLAND_APP_ID,
+
 		JoystickHatButtons = GLFW_JOYSTICK_HAT_BUTTONS,
+		AnglePlatformType = GLFW_ANGLE_PLATFORM_TYPE,
+		Platform = GLFW_PLATFORM,
 		CocoaChDirResources = GLFW_COCOA_CHDIR_RESOURCES,
 		CocoaMenuBar = GLFW_COCOA_MENUBAR,
-
+		X11XcbVulkanSurface = GLFW_X11_XCB_VULKAN_SURFACE,
 	};
 }
